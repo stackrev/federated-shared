@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "strictNullChecks": true,
+    "target": "es5",
+    "outDir": "dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "lib": ["es2017", "dom"],
+    "rootDir": "src",
+    "types": ["node"]
+  },
+  "include": ["src", "index.d.ts", "global.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
